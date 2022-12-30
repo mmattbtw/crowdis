@@ -18,9 +18,9 @@
         "updated": "📝 Exported translation updated by {{newTranslation.user.username}}\n- *{{newTranslation.string.identifier}}*"
       },
       "string": {
-        "added": "📝 String `{{string.identifier}}` added to source by {{user.username}}",
-        "updated": "📝 String `{{string.identifier}}` updated in source by {{user.username}}",
-        "deleted": "📝 String `{{string.identifier}}` deleted from source by {{user.username}}"
+        "added": "📝 String `{{string.text}}` added to source by {{user.username}}",
+        "updated": "📝 String `{{string.text}}` updated in source by {{user.username}}",
+        "deleted": "📝 String `{{string.text}}` deleted from source by {{user.username}}"
       },
       "suggestion": {
         "added": "💭 Suggestion added in {{translation.targetLanguage.name}} by {{translation.user.username}}\n- *`{{translation.string.identifier}}:` {{translation.string.text}}*",
@@ -31,9 +31,9 @@
       },
       "stringComment": {
         "created": "📨 {{comment.user.username}} commented on `{{comment.string.identifier}}` ({{comment.targetLanguage.name}}):\n- *{{comment.text}}*",
-        "updated": "📨 Comment in `{{comment.string.identifier}}` ({{comment.targetLanguage.name}}) updated by {{comment.user.username}}:\n- *{{comment.issueStatus}}*",
-        "deleted": "📨 Comment in `{{comment.string.identifier}}` ({{comment.targetLanguage.name}}) deleted by {{comment.user.username}}:\n- *{{comment.text}}*",
-        "restored": "📨 Comment in `{{comment.string.identifier}}` ({{comment.targetLanguage.name}}) restored by {{comment.user.username}}:\n- *{{comment.text}}*"
+        "updated": "📨 Comment in `{{comment.string.text}}` ({{comment.targetLanguage.name}}) updated by {{comment.user.username}}:\n- *{{comment.issueStatus}}*",
+        "deleted": "📨 Comment in `{{comment.string.text}}` ({{comment.targetLanguage.name}}) deleted by {{comment.user.username}}:\n- *{{comment.text}}*",
+        "restored": "📨 Comment in `{{comment.string.text}}` ({{comment.targetLanguage.name}}) restored by {{comment.user.username}}:\n- *{{comment.text}}*"
       },
       "task": {
         "added": "📋 Task `{{task.title}}` added by {{task.creator.username}}",
